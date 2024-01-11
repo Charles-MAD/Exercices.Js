@@ -1,5 +1,5 @@
 let a = 2 + 2;
-
+// exemple de cas d'utilisation de la declaration "switch"
 switch (a) {
     case 3:
         console.log( 'Too small' );
