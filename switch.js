@@ -62,22 +62,22 @@
 //         console.log('The result is strange. Really!');
 // }
 
-let arg = prompt("Enter a value?");
+// let arg = prompt("Enter a value?");
 
-switch (arg) {
-    case '0':
-    case '1':
-        console.log('One or zero');
-        break;
-    case '2':
-        console.log('Two');
-        break;
+// switch (arg) {
+//     case '0':
+//     case '1':
+//         console.log('One or zero');
+//         break;
+//     case '2':
+//         console.log('Two');
+//         break;
 
-    case 3:
-        console.log( 'Never executes!' );
-        break;
+//     case 3:
+//         console.log( 'Never executes!' );
+//         break;
     
-    default:
-        console.log('An unknown value');
+//     default:
+//         console.log('An unknown value');
 
-}
+
