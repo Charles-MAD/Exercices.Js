@@ -45,19 +45,39 @@
 
 // If we have several boxes that share the same code, we can group them.
 
-let a = 2 + 2;
+// let a = 2 + 2;
 
-switch(a) {
-    case 4:
-        console.log('Rigth!');
+// switch(a) {
+//     case 4:
+//         console.log('Rigth!');
+//         break;
+
+//     case 3: // grouping of two cases
+//     case 5:
+//         console.log('Wrong!');
+//         console.log("Why don't you take a math class?");
+//         break;
+
+//     default:
+//         console.log('The result is strange. Really!');
+// }
+
+let arg = prompt("Enter a value?");
+
+switch (arg) {
+    case '0':
+    case '1':
+        console.log('One or zero');
+        break;
+    case '2':
+        console.log('Two');
         break;
 
-    case 3: // grouping of two cases
-    case 5:
-        console.log('Wrong!');
-        console.log("Why don't you take a math class?");
+    case 3:
+        console.log( 'Never executes!' );
         break;
-
+    
     default:
-        console.log('The result is strange. Really!');
+        console.log('An unknown value');
+
 }
