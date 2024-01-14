@@ -57,4 +57,7 @@ switch(a) {
         console.log('Wrong!');
         console.log("Why don't you take a math class?");
         break;
+
+    default:
+        console.log('The result is strange. Really!');
 }
