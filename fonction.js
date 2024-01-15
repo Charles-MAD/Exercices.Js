@@ -5,4 +5,5 @@
 function showMessage() {
     console.log("Hello world!");
 }
-showMessage()
+showMessage(message);
+showMessage("Bonjour tout le monde !");
