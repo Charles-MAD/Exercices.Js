@@ -16,20 +16,20 @@
 //     [break]
 // }
 
-// Example the code with switch
+//Example the code with switch
 
-// let a = 2 + 2;
+let a = 2 + 2;
 
-// switch (a) {
-//     case 3: 
-//         console.log('Too small');
-//     case 4:
-//         console.log('Exactly');
-//     case 5:
-//         console.log('Too big');
-//     default:
-//         console.log("I don't know such values");
-// }
+switch (a) {
+    case 3: 
+        console.log('Too small');
+    case 4:
+        console.log('Exactly');
+    case 5:
+        console.log('Too big');
+    default:
+        console.log("I don't know such values");
+}
 
 // Having an expression, it can be a switch/case argument
 // let a = "1";
