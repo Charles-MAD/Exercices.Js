@@ -1,9 +1,14 @@
 'use stricct';
 
-// Declaration d'une fonction en javascritp
+// Utilisation des fonctions en javaScript
 
-function showMessage() {
-    console.log("Hello world!");
+function checkAge(age) { // arguments : age
+      if (age < 18) {
+        return alert("Tu es encore un mineur!");
+      } else {
+        // ...
+        return confirm('Tu es deja un majeur!');
+      }
 }
-showMessage(message);
-showMessage("Bonjour tout le monde !");
+
+checkAge(12); // age = 20
